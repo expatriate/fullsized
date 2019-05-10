@@ -17,7 +17,20 @@
   height: 100%;
 
   &__title {
+    font-size: 72px;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+  }
+
+  &__subtitle {
     font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+    span {
+      color: #f13946;
+    }
   }
 }
 
@@ -30,35 +43,16 @@
   padding: 12px;
 }
 
-.header-logo {
-  width: 48px;
-  height: 48px;
-  margin-right: 24px;
-  background: #aabbcc;
-
-
-  &__text {
-    font-size: 24px;
-  }
-}
-
 .footer {
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 12px;
 }
 
-.footer-logo {
-  width: 48px;
-  height: 48px;
-  margin-right: 24px;
-  background: #aabbcc;
-
-
-  &__text {
-    font-size: 24px;
-  }
+.footer-line {
+  width: 1px;
+  height: 60px;
+  background: #47595d;
 }
